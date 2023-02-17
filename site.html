@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My 3D Model Viewer</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer@0.17.0/dist/model-viewer.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer@0.17.0/dist/model-viewer-legacy.js"></script>
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <model-viewer src="table.obj" alt="A 3D model of an astronaut" auto-rotate camera-controls></model-viewer>
+  </body>
+</html>
